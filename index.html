@@ -1,0 +1,886 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="./assets/main.css">
+    <link rel="stylesheet" href="./assets/index.js">
+</head>
+
+<body>
+    <div class="">
+        <!-- header  -->
+        <div class="header">
+            <div class="row">
+                <!-- Logo -->
+                <div class="col-md-3">
+                    <img src="./image/logohd.jpg" alt="">
+                </div>
+                <!-- Nhập từ khóa -->
+                <div class="col-md-6" style="margin-top: 1.5%;">
+                    <div class="all_input_header">
+                        <input type="text" class="form-control set_inputhd" placeholder="Nhập từ khóa">
+                        <button class="bt-header"><i class="fa-solid fa-magnifying-glass search-icon"></i></button>
+                    </div>
+                </div>
+                <!-- Liên Hệ -->
+                <div class="col-md-3" style="margin-top: 15px;">
+                    <ul class="setup-liststnon header-shop">
+                        <li>
+                            <span class="block" style="text-align: center;">Gọi ngay</span>
+                            <span style="font-weight: 550;">037.559.5019</span>
+                        </li>
+                        <li>
+                            <i class="fa-solid fa-shop icon-shop"></i>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!-- slider -->
+        <!-- menu -->
+        <div class="header-v1">
+            <div class="danhmuc-all">
+                <i class="fa-solid fa-bars icon-danhmuc"></i>
+                <h3 style="font-size: 22px;margin-top: 15px;">DANH MỤC</h3>
+            </div>
+            <div class="thanhphan-header-all">
+                <nav class="navbar navbar-inverse" style="border: 0;">
+                    <div class="container-fluid dinhdang-option-header">
+                        <ul class="nav navbar-nav">
+                            <li class="active"><a href="#" id="option-header-id">TRANG CHỦ</a></li>
+                            <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">GIÀY 2 HAND
+                                    <span class="caret"></span></a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="#">NIKE</a></li>
+                                    <li><a href="#">ADIDAS</a></li>
+                                    <li><a href="#">PUMA</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#">SẢN PHẨM MỚI</a></li>
+                            <li><a href="./gioithieu.html">GIỚI THIỆU</a></li>
+                            <li><a href="#">HƯỚNG DẪN MUA HÀNG</a></li>
+                            <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">CÁC CHÍNH
+                                    SÁCH
+                                    <span class="caret"></span></a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="#">Chính sách bảo hành</a></li>
+                                    <li><a href="#">Đổi trả hàng</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </div>
+        <div class="header-v2">
+            <div class="header-v2-left">
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item"><a href="#">SẢN PHẨM MỚI NHẤT</a></li>
+                    <li class="list-group-item"><a href="#">HÀNG MỚI CHÍNH HÃNG</a></li>
+                    <li class="list-group-item"><a href="#">NIKE</a></li>
+                    <li class="list-group-item"><a href="#">ADIDAS</a></li>
+                    <li class="list-group-item"><a href="#">SKECHERS</a></li>
+                    <li class="list-group-item"><a href="#">NEW BALANCE</a></li>
+                    <li class="list-group-item"><a href="#" style="font-weight: 550;">XEM THÊM...</a></li>
+                </ul>
+            </div>
+            <!-- myCarousel Băng chuyền hình ảnh -->
+            <div class="header-v2-right">
+                <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                    <!-- Indicators -->
+                    <ol class="carousel-indicators">
+                        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                        <li data-target="#myCarousel" data-slide-to="1"></li>
+                    </ol>
+
+                    <!-- Wrapper for slides -->
+                    <div class="carousel-inner">
+                        <div class="item active">
+                            <img style="width: 100%;" src="./image/slider1.jpg" alt="">
+                        </div>
+
+                        <div class="item">
+                            <img style="width: 100%;" src="./image/slider2.jpg" alt="">
+                        </div>
+
+                    </div>
+
+                    <!-- Left and right controls -->
+                    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                        <span class="glyphicon glyphicon-chevron-left"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                        <span class="glyphicon glyphicon-chevron-right"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <!-- content -->
+        <!-- Nội Dung 1 Giới thiệu nhãn hiệu -->
+        <div class="content">
+            <div class="row">
+                <div class="col-md-3">
+                    <a href="#">
+                        <img class="setup-content-img" src="./image/cacsp/nike.jpg" alt="">
+                    </a>
+                    <div class="sanpham-content-all">
+                        <a href="#">
+                            Nike
+                        </a>
+                        <span>1541 Sản phẩm</span>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <a href="#">
+                        <img class="setup-content-img" src="./image/cacsp/NewBalance.jpg" alt="">
+                    </a>
+                    <div class="sanpham-content-all">
+                        <a href="#">
+                            NewBalance
+                        </a>
+                        <span>84 Sản phẩm</span>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <a href="#">
+                        <img class="setup-content-img" src="./image/cacsp/Adidas.jpg" alt="">
+                    </a>
+                    <div class="sanpham-content-all">
+                        <a href="#">
+                            Adidas
+                        </a>
+                        <span>649 Sản phẩm</span>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <a href="#">
+                        <img class="setup-content-img" src="./image/cacsp/Reebok.jpg" alt="">
+                    </a>
+                    <div class="sanpham-content-all">
+                        <a href="#">
+                            Reebok
+                        </a>
+                        <span>113 Sản phẩm</span>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <a href="#">
+                        <img class="setup-content-img" src="./image/cacsp/Puma.jpg" alt="">
+                    </a>
+                    <div class="sanpham-content-all">
+                        <a href="#">
+                            Puma
+                        </a>
+                        <span>193 Sản phẩm</span>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <a href="#">
+                        <img class="setup-content-img" src="./image/cacsp/Fila.jpg" alt="">
+                    </a>
+                    <div class="sanpham-content-all">
+                        <a href="#">
+                            Fila
+                        </a>
+                        <span>128 Sản phẩm</span>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <a href="#">
+                        <img class="setup-content-img" src="./image/cacsp/Onitsuka Tiger.jpg" alt="">
+                    </a>
+                    <div class="sanpham-content-all">
+                        <a href="#">
+                            Onitsuka Tiger
+                        </a>
+                        <span>14 Sản phẩm</span>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <a href="#">
+                        <img class="setup-content-img" src="./image/cacsp/ASICS.jpg" alt="">
+                    </a>
+                    <div class="sanpham-content-all">
+                        <a href="#">
+                            ASICS
+                        </a>
+                        <span>35 Sản phẩm</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="xemthem">
+            <h2>
+                <a href="#">Xem thêm</a>
+            </h2>
+            <p>Giày New Chính Hãng</p>
+        </div>
+        <!-- Nội dung 2 Sản phẩm -->
+        <div class="content1">
+            <div class="row dinhdang-content1">
+                <div class="col-md-2 content1-child">
+                    <img src="./image/giay.jpg" alt="">
+                    <a href="./giay.html" class="content1-p">(NEW) MLB CHUNKY LINER NEW YORK YANKEES WHITE BLACK
+                        3ASXCA12N</a>
+                    <div class="star">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <div class="content1-gia">
+                        <p class="saugiamgia">1.650.000đ</p>
+                        <p class="giamgia-tien">1.900.000đ</p>
+                        <p class="giamgia">-13%</p>
+                    </div>
+                    <div class="chonsp-all">
+                        <button>
+                            <a href="#">
+                                <i class="fa-solid fa-cart-shopping"></i>
+                                Chọn sản phẩm
+                            </a>
+                        </button>
+                    </div>
+                </div>
+                <div class="col-md-2 content1-child">
+                    <img src="./image/cacloaigiay/giay1.jpg" alt="">
+                    <a href="#" class="content1-p">(NEW) MLB Los Angeles Dodgers Big Ball Chunky A 32SHC1011-07W</a>
+                    <div class="star">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <div class="content1-gia">
+                        <p class="saugiamgia">1.280.000đ</p>
+                        <p class="giamgia-tien">1.500.000đ</p>
+                        <p class="giamgia">-13%</p>
+                    </div>
+                    <div class="chonsp-all">
+                        <button>
+                            <a href="#">
+                                <i class="fa-solid fa-cart-shopping"></i>
+                                Chọn sản phẩm
+                            </a>
+                        </button>
+                    </div>
+                </div>
+                <div class="col-md-2 content1-child">
+                    <img src="./image/cacloaigiay/giay2.jpg" alt="">
+                    <a href="#" class="content1-p">(NEW) MLB CHUNKY LINER NEW YORK YANKEES WHITE GREEN 3ASXCA12N (1)</a>
+                    <div class="star">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <div class="content1-gia">
+                        <p class="saugiamgia">1.650.000đ</p>
+                        <p class="giamgia-tien">1.900.000đ</p>
+                        <p class="giamgia">-13%</p>
+                    </div>
+                    <div class="chonsp-all">
+                        <button>
+                            <a href="#">
+                                <i class="fa-solid fa-cart-shopping"></i>
+                                Chọn sản phẩm
+                            </a>
+                        </button>
+                    </div>
+                </div>
+                <div class="col-md-2 content1-child">
+                    <img src="./image/cacloaigiay/giay3.jpg" alt="">
+                    <a href="#" class="content1-p">(NEW) MLB Chunky Liner Mid Denim New York Yankees Sox 3ASXCDN3N-50NYD
+                        (1)</a>
+                    <div class="star">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <div class="content1-gia">
+                        <p class="saugiamgia">1.750.000đ</p>
+                        <p class="giamgia-tien">2.900.000đ</p>
+                        <p class="giamgia">-39%</p>
+                    </div>
+                    <div class="chonsp-all">
+                        <button>
+                            <a href="#">
+                                <i class="fa-solid fa-cart-shopping"></i>
+                                Chọn sản phẩm
+                            </a>
+                        </button>
+                    </div>
+                </div>
+                <div class="col-md-2 content1-child">
+                    <img src="./image/cacloaigiay/giay4.jpg" alt="">
+                    <a href="#" class="content1-p">( NEW) MLB Mule YORK YANKEES - 3AMUMDA2N - GIÀY CHÍNH HÃNG</a>
+                    <div class="star">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <div class="content1-gia">
+                        <p class="saugiamgia">850.000đ</p>
+                        <p class="giamgia-tien">1.100.000đ</p>
+                        <p class="giamgia">-22%</p>
+                    </div>
+                    <div class="chonsp-all">
+                        <button>
+                            <a href="#">
+                                <i class="fa-solid fa-cart-shopping"></i>
+                                Chọn sản phẩm
+                            </a>
+                        </button>
+                    </div>
+                </div>
+                <div class="col-md-2 content1-child">
+                    <img src="./image/cacloaigiay/giay5.jpg" alt="">
+                    <a href="#" class="content1-p">( NEW ) MLB MULE PLAYBALL MOMOGRAM - 32SHSM111 - GIAỲ CHÍNH HÃNG</a>
+                    <div class="star">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <div class="content1-gia">
+                        <p class="saugiamgia">850.000đ</p>
+                        <p class="giamgia-tien">1.100.000đ</p>
+                        <p class="giamgia">-22%</p>
+                    </div>
+                    <div class="chonsp-all">
+                        <button>
+                            <a href="#">
+                                <i class="fa-solid fa-cart-shopping"></i>
+                                Chọn sản phẩm
+                            </a>
+                        </button>
+                    </div>
+                </div>
+                <div class="col-md-2 content1-child">
+                    <img src="./image/cacloaigiay/giay6.jpg" alt="">
+                    <a href="#" class="content1-p">( NEW ) MLB Mule Playball Monogram NY - 32SHSM111 - GIÀY CHÍNH
+                        HÃNG</a>
+                    <div class="star">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <div class="content1-gia">
+                        <p class="saugiamgia">860.000đ</p>
+                        <p class="giamgia-tien">1.100.000đ</p>
+                        <p class="giamgia">-21%</p>
+                    </div>
+                    <div class="chonsp-all">
+                        <button>
+                            <a href="#">
+                                <i class="fa-solid fa-cart-shopping"></i>
+                                Chọn sản phẩm
+                            </a>
+                        </button>
+                    </div>
+                </div>
+                <div class="col-md-2 content1-child">
+                    <img src="./image/cacloaigiay/giay7.jpg" alt="">
+                    <a href="#" class="content1-p">Giày 2hand Jordan Mars 270 Low Composition Book - CK2504 078 -
+                        7146</a>
+                    <div class="star">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <div class="content1-gia">
+                        <p class="saugiamgia">550.000đ</p>
+                        <p class="giamgia-tien">0đ</p>
+                        <p class="giamgia">0%</p>
+                    </div>
+                    <div class="chonsp-all">
+                        <button>
+                            <a href="#">
+                                <i class="fa-solid fa-cart-shopping"></i>
+                                Chọn sản phẩm
+                            </a>
+                        </button>
+                    </div>
+                </div>
+                <div class="col-md-2 content1-child">
+                    <img src="./image/cacloaigiay/giay8.jpg" alt="">
+                    <a href="#" class="content1-p">Giày 2hand Air Jordan 1 Premium 'Metallic Gold' (GS) 322675 711 -
+                        5711</a>
+                    <div class="star">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <div class="content1-gia">
+                        <p class="saugiamgia">490.000đ</p>
+                        <p class="giamgia-tien">0đ</p>
+                        <p class="giamgia">-0%</p>
+                    </div>
+                    <div class="chonsp-all">
+                        <button>
+                            <a href="#">
+                                <i class="fa-solid fa-cart-shopping"></i>
+                                Chọn sản phẩm
+                            </a>
+                        </button>
+                    </div>
+                </div>
+                <div class="col-md-2 content1-child">
+                    <img src="./image/cacloaigiay/giay9.jpg" alt="">
+                    <a href="#" class="content1-p">Giày 2hand Jordan 1 Mid Glitter Black (Women's) - BQ6472 001 -
+                        5766</a>
+                    <div class="star">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <div class="content1-gia">
+                        <p class="saugiamgia">690.000đ</p>
+                        <p class="giamgia-tien">0đ</p>
+                        <p class="giamgia">-0%</p>
+                    </div>
+                    <div class="chonsp-all">
+                        <button>
+                            <a href="#">
+                                <i class="fa-solid fa-cart-shopping"></i>
+                                Chọn sản phẩm
+                            </a>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="xemthem">
+            <h2>
+                <a href="#">Xem thêm</a>
+            </h2>
+            <p>Dép New Chính Hãng</p>
+        </div>
+        <!-- Nội dung 3 Sản phẩm -->
+        <div class="content2">
+            <div class="row dinhdang-content1">
+                <div class="col-md-2 content1-child">
+                    <img src="./image/dep.jpg" alt="">
+                    <a href="#" class="content1-p">(NEW) Dép Puma Leadcat Suede Slides VSK 0422 - màu xám</a>
+                    <div class="star">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <div class="content1-gia">
+                        <p class="saugiamgia">310.000đ</p>
+                        <p class="giamgia-tien">390.000đ</p>
+                        <p class="giamgia">-22%</p>
+                    </div>
+                    <div class="chonsp-all">
+                        <button>
+                            <a href="#">
+                                <i class="fa-solid fa-cart-shopping"></i>
+                                Chọn sản phẩm
+                            </a>
+                        </button>
+                    </div>
+                </div>
+                <div class="col-md-2 content1-child">
+                    <img src="./image/cacloaidep/dep1.jpg" alt="">
+                    <a href="#" class="content1-p">(NEW) Dép Puma Leadcat Suede Slides VSK 0422 - màu xám xanh mint</a>
+                    <div class="star">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <div class="content1-gia">
+                        <p class="saugiamgia">310.000đ</p>
+                        <p class="giamgia-tien">400.000đ</p>
+                        <p class="giamgia">-22%</p>
+                    </div>
+                    <div class="chonsp-all">
+                        <button>
+                            <a href="#">
+                                <i class="fa-solid fa-cart-shopping"></i>
+                                Chọn sản phẩm
+                            </a>
+                        </button>
+                    </div>
+                </div>
+                <div class="col-md-2 content1-child">
+                    <img src="./image/cacloaidep/dep2.jpg" alt="">
+                    <a href="#" class="content1-p">(NEW) Dép Puma Leadcat Suede Slides VSK 0422 - màu vàng xám</a>
+                    <div class="star">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <div class="content1-gia">
+                        <p class="saugiamgia">310.000đ</p>
+                        <p class="giamgia-tien">400.000đ</p>
+                        <p class="giamgia">-22%</p>
+                    </div>
+                    <div class="chonsp-all">
+                        <button>
+                            <a href="#">
+                                <i class="fa-solid fa-cart-shopping"></i>
+                                Chọn sản phẩm
+                            </a>
+                        </button>
+                    </div>
+                </div>
+                <div class="col-md-2 content1-child">
+                    <img src="./image/cacloaidep/dep3.jpg" alt="">
+                    <a href="#" class="content1-p">(NEW) Dép Puma Leadcat Suede Slides VSK 0422 - màu hồng</a>
+                    <div class="star">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <div class="content1-gia">
+                        <p class="saugiamgia">310.000đ</p>
+                        <p class="giamgia-tien">400.000đ</p>
+                        <p class="giamgia">-22%</p>
+                    </div>
+                    <div class="chonsp-all">
+                        <button>
+                            <a href="#">
+                                <i class="fa-solid fa-cart-shopping"></i>
+                                Chọn sản phẩm
+                            </a>
+                        </button>
+                    </div>
+                </div>
+                <div class="col-md-2 content1-child">
+                    <img src="./image/cacloaidep/dep4.jpg" alt="">
+                    <a href="#" class="content1-p">(NEW) Dép Puma Leadcat Suede Slides VSK 0422 - màu cam nâu</a>
+                    <div class="star">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <div class="content1-gia">
+                        <p class="saugiamgia">310.000đ</p>
+                        <p class="giamgia-tien">390.000đ</p>
+                        <p class="giamgia">-22%</p>
+                    </div>
+                    <div class="chonsp-all">
+                        <button>
+                            <a href="#">
+                                <i class="fa-solid fa-cart-shopping"></i>
+                                Chọn sản phẩm
+                            </a>
+                        </button>
+                    </div>
+                </div>
+                <div class="col-md-2 content1-child">
+                    <img src="./image/cacloaidep/dep5.jpg" alt="">
+                    <a href="#" class="content1-p">(NEW) Dép Puma Leadcat Suede Slides VSK 0422 - màu xám chinh hang</a>
+                    <div class="star">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <div class="content1-gia">
+                        <p class="saugiamgia">310.000đ</p>
+                        <p class="giamgia-tien">400.000đ</p>
+                        <p class="giamgia">-22%</p>
+                    </div>
+                    <div class="chonsp-all">
+                        <button>
+                            <a href="#">
+                                <i class="fa-solid fa-cart-shopping"></i>
+                                Chọn sản phẩm
+                            </a>
+                        </button>
+                    </div>
+                </div>
+                <div class="col-md-2 content1-child">
+                    <img src="./image/cacloaidep/dep6.jpg" alt="">
+                    <a href="#" class="content1-p">(NEW) Dép Adidas ADILETTE AQUA F35542</a>
+                    <div class="star">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <div class="content1-gia">
+                        <p class="saugiamgia">290.000đ</p>
+                        <p class="giamgia-tien">400.000đ</p>
+                        <p class="giamgia">-27%</p>
+                    </div>
+                    <div class="chonsp-all">
+                        <button>
+                            <a href="#">
+                                <i class="fa-solid fa-cart-shopping"></i>
+                                Chọn sản phẩm
+                            </a>
+                        </button>
+                    </div>
+                </div>
+                <div class="col-md-2 content1-child">
+                    <img src="./image/cacloaidep/dep7.jpg" alt="">
+                    <a href="#" class="content1-p">(NEW) Dép ADIDAS ADILETTE AQUA SLIDE GREEN dép đúc quai hang mới
+                        chính hãng</a>
+                    <div class="star">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <div class="content1-gia">
+                        <p class="saugiamgia">290.000đ</p>
+                        <p class="giamgia-tien">400.000đ</p>
+                        <p class="giamgia">-27%</p>
+                    </div>
+                    <div class="chonsp-all">
+                        <button>
+                            <a href="#">
+                                <i class="fa-solid fa-cart-shopping"></i>
+                                Chọn sản phẩm
+                            </a>
+                        </button>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <div class="xemthem">
+            <h2>
+                <a href="#">Tin tức</a>
+            </h2>
+        </div>
+        <!-- Tin tức -->
+        <div class="tintuc">
+            <div class="row">
+                <div class="col-md-4 tintuc-child">
+                    <a href="#"><img src="./image/tintuc.jpg" alt=""></a>
+                    <div class="tintuc-child-text-all">
+                        <a href="./tintuc.html">Sale off 10% toàn bộ sp tại tiệm</a>
+                    </div>
+                    <p>
+                        <span class="post-date">
+                            <i class="fas fa-calendar-alt"></i> 05/07/2023
+                            <span class="d-none-sidebar"> | </span>
+                        </span>
+                        <span>
+                            <span class="post-item-view">
+                                <i class="fas fa-eye"></i> 134 Lượt xem
+                            </span>
+                        </span>
+                    </p>
+                    <div class="tintuc-child-noidung">
+                        Sale off 10% toàn bộ sp tại tiệm
+                    </div>
+                </div>
+                <div class="col-md-4 tintuc-child">
+                    <a href="#"><img src="./image/tintuc/tintuc1.jpg" alt=""></a>
+                    <div class="tintuc-child-text-all">
+                        <a href="#">Deal cuối tuần . Bạn nào rảnh ghé mình chơi nhé </a>
+                    </div>
+                    <p>
+                        <span class="post-date">
+                            <i class="fas fa-calendar-alt"></i> 11/06/2023
+                            <span class="d-none-sidebar"> | </span>
+                        </span>
+                        <span>
+                            <span class="post-item-view">
+                                <i class="fas fa-eye"></i> 205 Lượt xem
+                            </span>
+                        </span>
+                    </p>
+                    <div class="tintuc-child-noidung">
+                        𝑺𝒂𝒏𝒈 𝒄𝒉𝒂̂́𝒏 𝒕𝒂̂𝒎 𝒍𝒊́ 𝒗𝒊̀ 𝒄𝒐́ 𝒒𝒖𝒂́ 𝒏𝒉𝒊𝒆̂̀𝒖 𝑯𝑶𝑻 𝑫𝑬𝑨𝑳 "
+                        𝑪𝒂𝒔𝒖𝒂𝒍 " 𝒕𝒓𝒐𝒏𝒈 𝒃𝒂̀𝒊 𝒗𝒊𝒆̂́𝒕 𝒏𝒂̀𝒚
+
+                        Tình trang đang update website.....
+
+                        Biết thêm chi tiết liên hệ Tại Đây
+
+                        Áp mã GIAY163A giảm ngay 50k khi mua tại website
+                    </div>
+                </div>
+                <div class="col-md-4 tintuc-child">
+                    <a href="#"><img src="./image/tintuc/tintuc2.jpg" alt=""></a>
+                    <div class="tintuc-child-text-all">
+                        <a href="#">Cập nhập hàng mới tại </a>
+                    </div>
+                    <p>
+                        <span class="post-date">
+                            <i class="fas fa-calendar-alt"></i> 05/06/2023
+                            <span class="d-none-sidebar"> | </span>
+                        </span>
+                        <span>
+                            <span class="post-item-view">
+                                <i class="fas fa-eye"></i> 224 Lượt xem
+                            </span>
+                        </span>
+                    </p>
+                    <div class="tintuc-child-noidung">
+                        "Giày cũ của bạn đã qua bao nhiêu cuộc phiêu lưu, nhưng vẫn đủ 'đếm trên đầu ngón tay' để tạo
+                        phong cách thời trang độc đáo. Hãy trải nghiệm 'sự trẻ trung' từ những đôi giày già nua, vì thời
+                        gian chỉ là một con số!" Tình trang đang update website..... Biết thêm chi tiết liên hệ Tại Đây
+                        Áp mã GIAY163A giảm ngay 50k khi mua tại website
+                    </div>
+                </div>
+            </div>
+        </div>
+    <!-- footer -->
+        <!-- Đầu footer -->
+        <div class="ganfooter">
+            <div class="row">
+                <div class="col-md-6 ganfooter-left">
+                    <i class="fa-solid fa-envelope"></i>
+                    <span>Đăng ký nhận tin: Ưu đãi - Quà tặng từ GiaycuSaiGon</span>
+                </div>
+                <div class="col-md-4">
+                    <input type="text" class="form-control" placeholder="E-mail">
+                </div>
+                <div class="col-md-2">
+                    <button class="btn btn-primary">Đăng ký</button>
+                </div>
+            </div>
+        </div>
+        <!-- Giữa footer -->
+        <div class="footer">
+            <div class="row">
+                <div class="col-md-4 footer-tongthe">
+                    <div class="footer-title">
+                        <h3>THÔNG TIN LIÊN HỆ</h3>
+                    </div>
+                    <div class="footer-content">
+                        <p> 163A đường số 1, P.13, Q.Gò Vấp</p>
+                        <p>037.559.5019</p>
+                        <p> giaycusaigon@gmail.com</p>
+                    </div>
+                </div>
+                <div class="col-md-4 footer-tongthe">
+                    <div class="footer-title">
+                        <h3>CHÍNH SÁCH MUA HÀNG</h3>
+                    </div>
+                    <div class="footer-content">
+                        <p>Hướng dẫn mua hàng</p>
+                        <p>Chính sách bảo hành, đổi trả hàng</p>
+                        <p>Chính sách giao hàng</p>
+                    </div>
+                </div>
+                <div class="col-md-4 footer-tongthe">
+                    <div class="footer-title">
+                        <h3>KẾT NỐI VỚI CHÚNG TÔI</h3>
+                    </div>
+                    <div class="footer-content">
+                        <div class="social-network widget-content">
+                            <a href="https://faceboook.com/giaycusaigon90" title="facebook" class="float-shadow"
+                                target="_blank">
+                                <img src="https://static.loveitopcdn.com/themes/base/images/icons-link/icon-facebook.png"
+                                    alt="facebook" width="39px" height="39px">
+                            </a>
+                            <a href="https://instagram.com/giaycusaigon1" title="instagram" class="float-shadow"
+                                target="_blank">
+                                <img src="https://static.loveitopcdn.com/themes/base/images/icons-link/icon-instagram.png"
+                                    alt="instagram" width="39px" height="39px">
+                            </a>
+                            <a href="https://zalo.me/0962000810" title="zalo" class="float-shadow" target="_blank">
+                                <img src="https://static.loveitopcdn.com/themes/base/images/icons-link/icon-zalo.png"
+                                    alt="zalo" width="39px" height="39px">
+                            </a>
+                        </div>
+                        <br />
+                        <iframe
+                            src="https://www.facebook.com/plugins/page.php?href=https://www.facebook.com/giaycusaigon90&amp;tabs=timeline&amp;height=200&amp;small_header=false&amp;adapt_container_width=true&amp;hide_cover=false&amp;show_facepile=true&amp;appId"
+                            width="100%" height="200" style="border:none;overflow:hidden" scrolling="no" frameborder="0"
+                            allowfullscreen="true"
+                            allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"
+                            title="Giày Cũ Sài Gòn - Giày 2hand Chính Hãng"></iframe>
+                    </div>
+                </div>
+            </div>
+            <!-- Kề cuối footer -->
+            <div class="footer-end">
+                <h1> Giày Cũ Sài Gòn - Giày 2hand Chính Hãng </h1>
+                <p> Tiệm Giày Cũ Sài Gòn (giaycusaigon.com) chuyên giày 2hand chính hãng, phụ kiện chính hãng đã qua sử
+                    dụng. Với phương châm "Gửi niềm tin! - Trao chất lượng!" chúng tôi nhận được sự tin tưởng từ bạn và
+                    trao gửi đến bạn những sản phẩm chất lượng nhất. Kể từ lúc bắt đầu, từ đầu năm 2019, tiệm Giầy cũ
+                    Sài Gòn luôn đặt chất lượng, uy tín lên hàng đầu, chất lượng xây dựng lên phong cách của chúng tôi.
+                    Cam kết đầu tiên của shop là luôn mang đến cho bạn những sản phẩm chính hãng (authentic 100%) với
+                    mức giá tốt nhất có thể. </p>
+            </div>
+        </div>
+        <!-- Đáy footer -->
+        <div class="footer-ending">
+            <div>
+                <ul class="widget-payment_method">
+                    <li>
+                        <img src="https://static.loveitopcdn.com/backend/images/payment/master-card.png"
+                            alt="master_card">
+                    </li>
+                    <li>
+                        <img src="https://static.loveitopcdn.com/backend/images/payment/visa.png" alt="visa">
+                    </li>
+                    <li>
+                        <img src="https://static.loveitopcdn.com/backend/images/payment/jcb.png" alt="jcb">
+                    </li>
+                    <li>
+                        <img src="https://static.loveitopcdn.com/backend/images/payment/cash.png" alt="cash">
+                    </li>
+                    <li>
+                        <img src="https://static.loveitopcdn.com/backend/images/payment/internet-banking.png"
+                            alt="internet-banking">
+                    </li>
+                    <li>
+                        <img src="https://static.loveitopcdn.com/backend/images/payment/installment.png"
+                            alt="installment">
+                    </li>
+                </ul>
+            </div>
+            <div class="text-editor">
+                <p>
+                    <span style="color:#bdc3c7;">© Bản quyền thuộc GiayCuSaiGon.Com</span>
+                </p>
+            </div>
+        </div>
+    </div>
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+    <script src="./assets/index.js"></script>
+</body>
+
+</html>
